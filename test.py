@@ -3,6 +3,9 @@ import sys
 from pygame.locals import *
 import random
 
+
+print "Eg er buinn ad breyta thessu!"
+
 class Game:
 
 	def __init__(self):
