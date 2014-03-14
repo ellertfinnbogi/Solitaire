@@ -1,7 +1,5 @@
 import pygame
 import sys
-#from objects import *
-#from general import SolSet
 from pygame.locals import *
 import random
 
@@ -40,7 +38,7 @@ class Game:
 					sys.exit()
 
 
-			self.screen.blit( self.getBackground(),self.getBackgroundRect() )
+			self.screen.blit(self.getBackground(),self.getBackgroundRect() )
 		
 			pygame.display.flip()
 	
