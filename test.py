@@ -9,11 +9,10 @@ class Game:
 
 	def __init__(self):
 		pygame.init()
-		random.seed()
+
 
 		self.screen = self.setDisplay()
-		#self.cards = self.loadCards()
-		#self.piles = self.populatePiles()
+
 
 	def setDisplay(self):
 
@@ -42,9 +41,9 @@ class Game:
 
 
 			self.screen.blit( self.getBackground(),self.getBackgroundRect() )
-			#self.draw()
+		
 			pygame.display.flip()
-		#pygame.quit()
+	
 
 	def start(self):
 		self.gameLoop()	
@@ -53,3 +52,4 @@ class Game:
 if __name__ =="__main__":
 	g = Game()
 	g.start()
+
